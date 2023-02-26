@@ -38,7 +38,7 @@ struct BarChart: View {
                     x: .value("모양", shape.type),
                     y: .value("합계", shape.count)
                 )
-                .foregroundStyle(by: .value("색깔", shape.color))
+                .foregroundStyle(by: .value("색상", shape.color))
             }
         }
         .chartForegroundStyleScale([
