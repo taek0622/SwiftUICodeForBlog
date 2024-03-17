@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26B742AA2BA6DFC400823338 /* CoreImagePhotoFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B742A92BA6DFC400823338 /* CoreImagePhotoFilterView.swift */; };
 		26B7B19129AB91EC00D3C3F7 /* SwiftUIForBlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7B19029AB91EC00D3C3F7 /* SwiftUIForBlogApp.swift */; };
 		26B7B19329AB91EC00D3C3F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7B19229AB91EC00D3C3F7 /* ContentView.swift */; };
 		26B7B19529AB91ED00D3C3F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B7B19429AB91ED00D3C3F7 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26B742A92BA6DFC400823338 /* CoreImagePhotoFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImagePhotoFilterView.swift; sourceTree = "<group>"; };
 		26B7B18D29AB91EC00D3C3F7 /* SwiftUIForBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIForBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B7B19029AB91EC00D3C3F7 /* SwiftUIForBlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIForBlogApp.swift; sourceTree = "<group>"; };
 		26B7B19229AB91EC00D3C3F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				26B7B19029AB91EC00D3C3F7 /* SwiftUIForBlogApp.swift */,
 				26B7B19229AB91EC00D3C3F7 /* ContentView.swift */,
+				26B742A92BA6DFC400823338 /* CoreImagePhotoFilterView.swift */,
 				26B7B19E29AB926D00D3C3F7 /* BarChart.swift */,
 				26B7B19429AB91ED00D3C3F7 /* Assets.xcassets */,
 				26B7B19629AB91ED00D3C3F7 /* Preview Content */,
@@ -143,6 +146,7 @@
 				26B7B19329AB91EC00D3C3F7 /* ContentView.swift in Sources */,
 				26B7B19F29AB926D00D3C3F7 /* BarChart.swift in Sources */,
 				26B7B19129AB91EC00D3C3F7 /* SwiftUIForBlogApp.swift in Sources */,
+				26B742AA2BA6DFC400823338 /* CoreImagePhotoFilterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

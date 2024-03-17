@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            BarChart()
+        NavigationStack {
+            List {
+                NavigationLink("코어 이미지 사진 필터", destination: CoreImagePhotoFilterView())
+            }
         }
-        .padding()
     }
 }
 
