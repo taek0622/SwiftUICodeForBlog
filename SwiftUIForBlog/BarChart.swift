@@ -10,11 +10,11 @@
 import Charts
 import SwiftUI
 
-struct Toy: Identifiable {
+struct Toy {
     var color: String
     var type: String
     var count: Double
-    var id = UUID()
+//    var id = UUID()
 }
 
 struct BarChart: View {
@@ -34,14 +34,28 @@ struct BarChart: View {
     ]
 
     var body: some View {
-        Chart {
-            ForEach(data) { shape in
-                BarMark(
-                    x: .value("모양", shape.type),
-                    y: .value("합계", shape.count)
-                )
+//        Chart {
+//            ForEach(data) { shape in
+//                BarMark(
+//                    x: .value("모양", shape.type),
+//                    y: .value("합계", shape.count)
+//                )
+//                .foregroundStyle(by: .value("색상", shape.color))
+//            }
+//        }
+//        .chartForegroundStyleScale([
+//            "초록색": .green, "보라색": .purple, "분홍색": .pink, "노랑색": .yellow
+//        ])
+//        Chart(data) { shape in
+//            BarMark(x: .value("모양", shape.type), y: .value("합계", shape.count))
+//                .foregroundStyle(by: .value("색상", shape.color))
+//        }
+//        .chartForegroundStyleScale([
+//            "초록색": .green, "보라색": .purple, "분홍색": .pink, "노랑색": .yellow
+//        ])
+        Chart(data, id: \.type) { shape in
+            BarMark(x: .value("모양", shape.type), y: .value("합계", shape.count))
                 .foregroundStyle(by: .value("색상", shape.color))
-            }
         }
         .chartForegroundStyleScale([
             "초록색": .green, "보라색": .purple, "분홍색": .pink, "노랑색": .yellow
